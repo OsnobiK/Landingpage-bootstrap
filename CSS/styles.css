@@ -1,0 +1,100 @@
+body{
+    background-color: #010a17;
+    color: white;
+    font-family: poppinssemibold;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 50px;
+    font-family: poppinssemibold;
+}
+
+span{
+   color: #7b00e8;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.img{
+    width: 500px;
+   
+}
+
+form{
+    flex-direction: column;
+    display: flex;
+    width: 70%;
+}
+
+input{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16;
+}
+
+input[type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: #7b00e8;
+    color: white;
+    font-family: poppinssemibold;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.navbar-brand, .nav-link, .nav-link.active{
+    color: white !important;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-brand:hover {
+    color: #440dc0 !important;
+}
+
+
+.nav-link:hover {
+    color: #440dc0 !important;
+}
+
+#olamundo{
+    border: 2px solid #440dc0;
+    padding: 5px;
+    border-radius: 20px;
+    transition: color 0.3s all;
+}
+
+#olamundo:hover{
+   background-color: #440dc0;
+   color: white !important;
+}
+
+.navbar-toggler-icon {
+    filter: invert(100%);
+  }
+  
+
+  #oi, #oioi{
+    border-radius: 20px;
+    max-width: 89%;
+    margin-right: 70px;
+  }
+
+
