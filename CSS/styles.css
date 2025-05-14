@@ -15,12 +15,14 @@ main{
 
 h2{
     font-size: 56px;
-    line-height: 50px;
+    line-height: 20px;
     font-family: poppinssemibold;
+    margin-bottom: 50px;
 }
 
 span{
    color: #7b00e8;
+   
 }
 
 p{
@@ -28,7 +30,7 @@ p{
     max-width: 500px;
     font-family: poppinslight;
     font-size: 18px;
-    margin-top: 50px;
+    
 }
 
 .img{

@@ -1,11 +1,16 @@
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
     main {
         flex-direction: column;
 }
 
     h2{
         font-size: 36px;
+        margin-bottom: 19px;
         
+    }
+
+    p {
+        margin-top: 30px;
     }
 
 
@@ -19,6 +24,8 @@
     }
 
     article{
-        margin-top: 40px;
+        display: none;
         }
+
+   
 }
